@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<style>
+    fieldset{
+        text-align: center;
+        border: 1px solid black;
+        padding: 10px;
+        margin: 0;
+    }
+    legend{
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    label{
+        display: block;
+        margin-bottom: 5px;
+    }
+    #name,#email,#password,#ConfirmPass,#dob{
+        width: calc(100%-20px);
+        padding: 8px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border: 4px;
+    }
+    .gender-grp{
+        margin-bottom: 10px;
+    }
+    input[type="radio"]{
+        margin-left: 10px;
+        vertical-align: middle;
+    }
+    input[type="submit"]{
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <form>
+        <fieldset>
+            <legend>User Profile Info</legend>
+            <label for="name">Enter your full name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">Enter your password:</label>
+            <input type="password" id="password" name="name" required>
+            <label for="ConfirmPass">confirm Your Password:</label>
+            <input type="ConfirmPass" id="ConfirmPass" name="ConfirmPass" required>
+
+            <label>Enter Your Gender:</label>
+            <div class="gender-grp">
+                <label for="male">Male</label>
+                <input type="radio" name="male" value="male" id="mail" required>
+                <label for="female">Female</label>
+                <input type="radio" name="Female" value="Female" id="Female" required>
+                <label for="others">others</label>
+                <input type="radio" name="others" value="others" id="others" required>
+                </div>
+                <label for="Dob">Enter your Date of Birth: </label>
+                <input type="date" id="dob" name="dob" required>
+
+                <label for="address">Enter your address: </label>
+                <textarea name="address" id="address"></textarea>
+            
+                <input type="submit" value="submit">
+        </fieldset>
+    </form>
+</body>
+
+</html>
