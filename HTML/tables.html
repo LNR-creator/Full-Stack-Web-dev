@@ -1,0 +1,64 @@
+
+<!-- This is table example in html
+
+table tag is the starting tag for creating a table
+We use the <tr> (table row), <th> (table header), and <td> (table data) tags inside the <table> tag to define the structure of a table. 
+    
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<style>
+    table,th,td{
+        border: 2px solid black;
+         border-collapse: collapse;
+    }
+</style>
+<body>
+    <table style="width: 400px;">
+        <caption style="border: 2px solid black;">Friends</caption>
+        <tr >
+             <th colspan="1">Name</th> <!--colspan is used when we want extra colms in one header -->
+            <th>Age</th>
+            <th>Date of Birth</th>
+        </tr>
+        <tr>
+            <td>Devi Charan</td>
+            <td>19</td>
+            <td>7 January 2006</td>
+        </tr>
+        <tr>
+            <td>MP</td>
+            <td>19</td>
+            <td>Nov 2006</td>
+        </tr>
+          <tr>
+            <td>Kodi</td>
+            <td>19</td>
+            <td>25 Sep 2006</td>
+        </tr>
+          <tr>
+            <td>Thapa</td>
+            <td>19</td>
+            <td>28 March 2006</td>
+        </tr>
+          <tr>
+            <td>Pardhu</td>
+            <td>19</td>
+            <td>25 May 2007</td>
+        </tr>
+          <tr>
+            <td>Rohithu</td>
+            <td>18</td>
+            <td>I dont know</td>
+        </tr>
+    </table>
+</body>
+
+</html>
