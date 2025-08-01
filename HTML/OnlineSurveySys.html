@@ -1,0 +1,76 @@
+<!-- 
+    ================================
+    Customer Survey Feedback Information
+    ================================
+    This page is a practice exercise for HTML forms, lists, and tables.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Survey</title>
+</head>
+
+<body>
+    <form action="">
+        <h1>HTML Practice</h1>
+        <h1>Customer Feedback Survey</h1>
+        <p>Please take a moment to complete the survey below.</p>
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+        <label for="name">Your Age</label>
+        <input type="number" id="age" name="age" required>
+        <br><br>
+        <label for="name">Favourite Colour</label>
+        <select name="colour" id="colour"></select>
+        <option value="red">red</option>
+        <option value="blue">blue</option>
+        <option value="green">green</option>
+        <option value="yellow">yellow</option>
+        <br><br>
+        <label for="Feedback">Your Feedback:</label>
+        <br>
+        <textarea name="Feedback" id="Feedback"></textarea>
+        <br><br>
+        <input type="submit">
+    </form>
+    <h3>Instructions</h3>
+    <ul>
+        <li>Fill in your name and age in the first two fields.</li>
+        <li>Select your favorite color from the dropdown list.</li>
+        <li>Provide your feedback in the text box below.</li>
+        <li>Click the "Submit" button to submit your responses.</li>
+    </ul>
+    <h2>Survey Responses</h2>
+
+    <table border="1px">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Favourite Colour</th>
+            <th>Feedback</th>
+        </tr>
+
+        <tbody>
+            <tr>
+                <td>Alice</td>
+                <td>30</td>
+                <td>Blue</td>
+                <td>Greate Service! Keep it up.</td>
+            </tr>
+
+            <tr>
+                <td>Bob</td>
+                <td>25</td>
+                <td>Green</td>
+                <td>Would love to see more options.</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
