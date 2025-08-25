@@ -1,0 +1,12 @@
+5. Logic Building with Arrays
+
+Here’s a thinking trick:
+
+Whenever you face a problem, think:
+====================================
+Do I need to store multiple related values? → Use array.
+Do I need to add/remove items? → push/pop/shift/unshift.
+Do I need to transform data? → map.
+Do I need to filter out unwanted data? → filter.
+Do I need to find something specific? → find/indexOf.
+Do I need to sort? → sort.
